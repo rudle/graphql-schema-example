@@ -1,0 +1,20 @@
+type User {
+  settings: Settings
+}
+
+type Settings {
+  volumeSettings: VolumeSettings
+  displaySettings: DisplaySettings
+}
+
+
+type DisplaySettings {
+  id: String
+  width: Int
+  height: Int
+}
+
+type VolumeSettings {
+  id: String
+  loudnessPercent: Int
+}
